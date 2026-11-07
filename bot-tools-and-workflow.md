@@ -91,6 +91,10 @@ The [batch][] capability is REQUIRED to send a command list or workflow that
 does not fit in a single message, and to stream large tool results; it is
 otherwise OPTIONAL. The [labeled response][] capability is OPTIONAL.
 
+A server that also implements [channel-bots][] folds bots' command
+advertisements into `obby.world/bot-list` discovery batches. The two
+specifications are independent but complementary.
+
 Command replies use two existing client tags: [`reply`][] (`+reply`) to point a
 reply at the invocation it answers, and [`channel-context`][]
 (`+draft/channel-context`) to display a whispered reply against the channel a command
