@@ -858,3 +858,4 @@ S: @+draft/bot-tools=<base64> :bot!bot@example.com TAGMSG #channel
 [base64]: https://datatracker.ietf.org/doc/html/rfc4648#section-4
 [`reply`]: https://ircv3.net/specs/client-tags/reply
 [`channel-context`]: https://ircv3.net/specs/client-tags/channel-context
+[channel-bots]: channel-bots.md
